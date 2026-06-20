@@ -17,7 +17,7 @@ const errorHandler = require('./middlewares/errorMiddleware/errorHandler.js')
 
 //port and server
 
-const PORT = 9009
+const PORT = process.env.PORT
 const server = express()
 
 
